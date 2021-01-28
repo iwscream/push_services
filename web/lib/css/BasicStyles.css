@@ -1,0 +1,129 @@
+html {
+    height: 100%;
+    overflow: hidden;
+    font-size: 25px;
+    color: white;
+}
+body {
+    height: 100%;
+    overflow: hidden;
+}
+.decorate-header {
+    height: 7%;
+}
+.uni-font {
+    font-size: 25px;
+    color: white;
+    font-family: "KaiTi", "BiauKai", fantasy;
+}
+.uni-input {
+    background-color: transparent;
+    color: #fff;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom: solid 2px white;
+    border-left-width: 0;
+}
+.cont-text-area {
+    background-color: transparent;
+    color: #fff;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+#decorate-cap {
+    position: absolute;
+    left: 13%;
+    top: 13%;
+    width: 20%;
+    transform: translate(-50%,-50%);
+}
+.decorate-santa1 {
+    position: absolute;
+    right: 2%;
+    bottom: 50%;
+    width: 25%;
+}
+.decorate-santa2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 33%;
+}
+.decorate-polygon {
+    position: absolute;
+    left: 10%;
+    top: 14%;
+    width: 8%;
+}
+
+.general-background {
+    background-color: #0f674b;
+}
+
+.screen-direction-detector-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.flex {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-around {
+    justify-content: space-around;
+}
+.flex-between {
+    justify-content: space-between;
+}
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.padding-none {
+    padding: 0;
+}
+.padding-sm {
+    padding: 8px 8px;
+}
+.padding-mi {
+    padding: 15px 15px;
+}
+.padding-lg {
+    padding: 25px 25px;
+}
+.margin-none {
+    margin: 0;
+}
+.margin-sm {
+    margin: 8px 8px;
+}
+.margin-mi {
+    margin: 15px 15px;
+}
+.margin-lg {
+    margin: 25px 25px;
+}
+
+.circled-border {
+    border-radius: 10px;
+    border: dashed white 2px;
+    color: white;
+}
+
+.background {
+    background-image: url('../../resource/public/background.png');
+}
+
